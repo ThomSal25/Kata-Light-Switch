@@ -4,20 +4,39 @@
   line-height: 1.5;
 }
 
+main {
+  background-color: white;
+  transition: 1s;
+}
+
+.background-night {
+  background-color: black;
+  transition: 1s;
+}
+
 .sec-switch {
   position: relative;
+  height: 100vh;
 }
 
 .light-switch {
   font-size: 3rem;
   font-weight: bold;
-
+  cursor: pointer;
   padding-block: 0.5rem;
   padding-inline: 1.5rem;
   border: 0.5rem solid black;
+  border-radius: 0.25rem;
 
   position: absolute;
   top: 50vh;
   left: 50vw;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.switch-on {
+  color: white;
+  background-color: black;
+  border: 0.5rem solid white;
+  box-shadow: 0rem 0rem 0.5rem 0.5rem yellow;
 }

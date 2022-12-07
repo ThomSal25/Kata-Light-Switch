@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sec-switch {
+  position: relative;
+}
+
+.light-switch {
+  font-size: 3rem;
+  font-weight: bold;
+
+  padding-block: 0.5rem;
+  padding-inline: 1.5rem;
+  border: 0.5rem solid black;
+
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translateX(-50%) translateY(-50%);
+}
